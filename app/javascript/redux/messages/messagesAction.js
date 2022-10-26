@@ -1,7 +1,5 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
-
-
 const GET_MESSAGES = 'GET_MESSAGES';
 
 const getMessages = createAsyncThunk(

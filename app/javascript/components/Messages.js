@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 
 const Messages = () => {
 
- const msg = useSelector((state) => state.messages);  
- let randomMsg = ''
- if(msg.length > 0){
-    randomMsg = msg[Math.floor(Math.random() * msg.length)].attributes
- }
+  const msg = useSelector((state) => state.messages);  
+  let randomMsg = ''
+    if(msg.length > 0){
+      randomMsg = msg[Math.floor(Math.random() * msg.length)].attributes
+    }
  
   const dispatch = useDispatch();
 
@@ -23,7 +23,7 @@ const Messages = () => {
   return (
     <div>
       <Link to='/'>Clear Message</Link>        
-          <h2>{randomMsg.description}</h2>
+        <h2>{randomMsg.description}</h2>
     </div>
   )
 }

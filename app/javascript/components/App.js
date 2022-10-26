@@ -6,16 +6,15 @@ import { NavLink } from 'react-router-dom';
 function App() {
 
   return (  
-     <>
-     <h1>Home Page</h1>
-     <NavLink to='/messages'>Click to see messages</NavLink>
-     
-     <Routes>
-      <Route path="/messages" element={<Messages />}>
+    <>
+      <h1>Home Page</h1>
 
-      </Route>
-    </Routes>
-  </>
+      <NavLink to='/messages'>Click to see messages</NavLink>  
+
+      <Routes>
+        <Route path="/messages" element={<Messages />}/>      
+      </Routes>
+    </>
   )
 }
 
