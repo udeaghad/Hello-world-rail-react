@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
   - `rails db:seed` (to populate initial data from db/seeds.rb file)  
 - Run `./bin/dev` on your terminal
 - Enter **http://localhost:5000/ or localhost:5000** on your browser to view the project.
-- **Congratulations! App should run successfully.**
+
 ## Authors
 
 👤 **Dozie Udeagha**
