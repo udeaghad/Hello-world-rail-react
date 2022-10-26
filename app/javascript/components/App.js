@@ -3,7 +3,7 @@ import Messages from './Messages';
 import {Routes, Route} from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 
-function App() {
+const App = () => {
 
   return (  
     <>
