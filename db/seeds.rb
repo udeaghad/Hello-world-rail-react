@@ -11,6 +11,6 @@ messages = Message.create([
   { description: "Hello World from Rails!" },
   { description: "Welcome from Rails and React" },
   { description: "Hello World from React!" },
-  { description: "Hello World from Rails and React!" }
+  { description: "Rails and React Welcome you" }
 ])
 
